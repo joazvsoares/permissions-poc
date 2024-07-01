@@ -1,0 +1,15 @@
+export enum Action {
+  MANAGE_CAMPAIGNS = 'manage_campaigns',
+  MANAGE_USERS = 'manage_users',
+  MANAGE_PROPERTIES = 'manage_properties',
+  MANAGE_ORGANIZATIONS = 'manage_organizations',
+  MANAGE_GROUP_BOOKINGS = 'manage_group_bookings',
+  MANAGE_RESERVATIONS = 'manage_reservations',
+  INVITE_USERS = 'invite_users',
+  CREATE_ORGANIZATIONS = 'create_organizations',
+  VIEW_CAMPAIGNS = 'view_campaigns',
+  VIEW_RESERVATIONS = 'view_reservations',
+  VIEW_ORGANIZATIONS = 'view_organizations',
+  VIEW_PROPERTIES = 'view_properties',
+  VIEW_USERS = 'view_users',
+}

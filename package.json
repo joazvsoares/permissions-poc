@@ -1,0 +1,26 @@
+{
+  "name": "permissions-poc",
+  "version": "1.0.0",
+  "author": "Joaz Soares",
+  "description": "A basic permission system",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "format": "prettier --write 'src/**/*.{ts,tsx,js,json,md}'",
+    "test": "ts-node -r tsconfig-paths/register src/tests/test.ts"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^8.10.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.8",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "tsconfig-paths": "^4.2.0"
+  }
+}
